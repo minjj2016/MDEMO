@@ -150,7 +150,7 @@ public class LoginController extends BaseController {
 				}
 			}
 		}else{
-			errInfo = "error";	//缺少参数
+			errInfo = "缺少参数";	//缺少参数
 		}
 		map.put("result", errInfo);
 		return AppUtil.returnObject(new PageData(), map);
